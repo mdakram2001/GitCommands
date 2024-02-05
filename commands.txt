@@ -1,0 +1,42 @@
+C:\Users\HP\Desktop>cd ../
+
+C:\Users\HP>cd dow
+The system cannot find the path specified.
+
+C:\Users\HP>cd Downloads
+
+C:\Users\HP\Downloads>cd "Sigma Web Development"
+
+C:\Users\HP\Downloads\Sigma Web Development> cd "Git and GitHub"
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>echo "# GitCmd" >> README.md
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git init
+Initialized empty Git repository in C:/Users/HP/Downloads/Sigma Web Development/Git and GitHub/.git/
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git add README.md
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git add .
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git commit -m "first commit"
+[master (root-commit) 43dc022] first commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 Code.txt
+ create mode 100644 README.md
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git branch -M main
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git remote add origin https://github.com/mdakram2001/GitCmd.git
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 269 bytes | 89.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/mdakram2001/GitCmd.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\HP\Downloads\Sigma Web Development\Git and GitHub>
